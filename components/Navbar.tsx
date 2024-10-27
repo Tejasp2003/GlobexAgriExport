@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Leaf className="h-8 w-8 text-green-600" />
-          <span className="text-2xl font-bold text-gray-800">GlobexAgriExport</span>
+          <span className="text-2xl font-bold text-gray-800">Globex Agri Export</span>
         </Link>
         <nav className="hidden md:block">
           <ul className="flex space-x-6">

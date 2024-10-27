@@ -29,14 +29,14 @@ export default function TurmericExport() {
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
   const shareTitle = "Globex Agri Export - Premium Indian Turmeric Exporter";
   const shareDescription =
-    "Discover the vibrant color and exceptional quality of Indian turmeric from GlobexAgriExport. Request a quote today!";
+    "Discover the vibrant color and exceptional quality of Indian turmeric from Globex Agri Export. Request a quote today!";
   return (
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 via-orange-50 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-800 flex items-center justify-center">
             <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-orange-600" />
-            GlobexAgriExport
+            Globex Agri Export
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Offering premium Indian turmeric, known for its vibrant color and
@@ -46,7 +46,7 @@ export default function TurmericExport() {
             <Button
               className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
               onClick={() =>
-                (window.location.href = "mailto:globexagriexport@gmail.com")
+                (window.location.href = "mailto:Globex Agri Export@gmail.com")
               }
             >
               Request a Quote
@@ -177,7 +177,7 @@ export default function TurmericExport() {
           <CardHeader>
             <CardTitle className="text-3xl font-bold text-orange-700 flex items-center">
               <CheckCircle className="mr-2 h-8 w-8" /> Why Choose
-              GlobexAgriExport for Indian Turmeric?
+              Globex Agri Export for Indian Turmeric?
             </CardTitle>
           </CardHeader>
           <CardContent>

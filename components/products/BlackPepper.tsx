@@ -50,7 +50,7 @@ export default function BlackPepperExport() {
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
           <Button
   className="w-full sm:w-auto bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-800 hover:to-gray-900 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
-  onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
+  onClick={() => window.location.href = "mailto:Globex Agri Export@gmail.com"}
 >
   Request a Quote
 </Button>

@@ -50,7 +50,7 @@ export default function PeanutExport() {
           </p>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
             <Button className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
-            onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
+            onClick={() => window.location.href = "mailto:Globex Agri Export@gmail.com"}
             >
               Request a Quote
             </Button>

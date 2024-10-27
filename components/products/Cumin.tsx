@@ -36,7 +36,7 @@ export default function CuminExport() {
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-amber-800 flex items-center justify-center">
             <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-amber-600" />
-            GlobexAgriExport
+            Globex Agri Export
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Bringing you the finest quality cumin seeds, a prized spice revered
@@ -45,7 +45,7 @@ export default function CuminExport() {
           </p>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
             <Button className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
-            onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
+            onClick={() => window.location.href = "mailto:Globex Agri Export@gmail.com"}
             >
               Request a Quote
             </Button>
@@ -239,7 +239,7 @@ export default function CuminExport() {
           <CardHeader>
             <CardTitle className="text-3xl font-bold text-amber-700 flex items-center">
               <CheckCircle className="mr-2 h-8 w-8" /> Why Choose
-              GlobexAgriExport for Cumin Seeds?
+              Globex Agri Export for Cumin Seeds?
             </CardTitle>
           </CardHeader>
           <CardContent>

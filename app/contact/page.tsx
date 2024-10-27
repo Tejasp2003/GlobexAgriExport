@@ -126,7 +126,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-semibold text-green-700 mb-4">Other Ways to Reach Us</h2>
             <p className="text-gray-600 mb-2">
               <Mail className="inline-block mr-2 h-5 w-5" />
-              Email: contact@globexagriexport.com
+              Email: contact@Globex Agri Export.com
             </p>
             <p className="text-gray-600">
               <Send className="inline-block mr-2 h-5 w-5" />

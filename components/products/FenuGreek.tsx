@@ -37,7 +37,7 @@ export default function FenugreekExport() {
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-green-800 flex items-center justify-center">
             <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-green-600" />
-            GlobexAgriExport
+            Globex Agri Export
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Discover the natural wonders of our premium Fenugreek Seeds,
@@ -48,7 +48,7 @@ export default function FenugreekExport() {
             <Button
               className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
               onClick={() =>
-                (window.location.href = "mailto:globexagriexport@gmail.com")
+                (window.location.href = "mailto:Globex Agri Export@gmail.com")
               }
             >
               Request a Quote
