@@ -42,14 +42,14 @@ export default function PeanutExport() {
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold mb-4 text-yellow-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-yellow-600" />
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-yellow-600" />
            Globex Agri Export
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Your premier destination for top-quality groundnut products sourced from the heartlands of India. We offer a wide range of groundnut varieties to meet diverse customer needs.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
-            <Button className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
+            <Button className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
             onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
             >
               Request a Quote

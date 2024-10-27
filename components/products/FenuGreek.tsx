@@ -35,11 +35,11 @@ export default function FenugreekExport() {
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 via-green-50 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold mb-4 text-green-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-green-600" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-green-800 flex items-center justify-center">
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-green-600" />
             GlobexAgriExport
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Discover the natural wonders of our premium Fenugreek Seeds,
             harvested fresh from the fields of India, offering versatility and
             numerous health benefits.

@@ -1,5 +1,5 @@
-"use client"; 
-import Image from "next/image"
+"use client";
+import Image from "next/image";
 import { Leaf, Package, Truck, CheckCircle, Share2 } from "lucide-react";
 import {
   Popover,
@@ -20,17 +20,10 @@ import {
 } from "react-share";
 import { useState } from "react";
 import GingerImage from "@/public/images/ginger.jpg";
-import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Ginger() {
-
   const [isShareOpen, setIsShareOpen] = useState(false);
 
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
@@ -41,16 +34,20 @@ export default function Ginger() {
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 via-orange-50 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold mb-4 text-orange-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-orange-600" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-800 flex items-center justify-center">
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-orange-600" />
             GlobexAgriExport
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Distinguished exporter of premium Indian fresh ginger, delivering exceptional quality and flavor to discerning customers worldwide.
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+            Distinguished exporter of premium Indian fresh ginger, delivering
+            exceptional quality and flavor to discerning customers worldwide.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
-            <Button className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
-            onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
+            <Button
+              className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
+              onClick={() =>
+                (window.location.href = "mailto:globexagriexport@gmail.com")
+              }
             >
               Request a Quote
             </Button>
@@ -111,11 +108,16 @@ export default function Ginger() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-orange-700">Indian Fresh Ginger</CardTitle>
+              <CardTitle className="text-2xl font-bold text-orange-700">
+                Indian Fresh Ginger
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-4">
-                Our Indian fresh ginger is renowned for its exceptional quality, intense flavor, and aromatic fragrance. Harvested from the fertile regions of South India and northeastern states, it offers:
+                Our Indian fresh ginger is renowned for its exceptional quality,
+                intense flavor, and aromatic fragrance. Harvested from the
+                fertile regions of South India and northeastern states, it
+                offers:
               </p>
               <ul className="list-disc list-inside text-gray-600 space-y-2">
                 <li>Distinctive pale golden-yellow hue</li>
@@ -137,11 +139,25 @@ export default function Ginger() {
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-gray-600">
-                <li><span className="font-semibold">Origin:</span> South India (Kerala, Karnataka) and Northeast (Assam, Meghalaya)</li>
-                <li><span className="font-semibold">Appearance:</span> Pale golden-yellow, smooth skin</li>
-                <li><span className="font-semibold">Texture:</span> Fibrous flesh</li>
-                <li><span className="font-semibold">Flavor:</span> Spicy heat with subtle sweetness</li>
-                <li><span className="font-semibold">Aroma:</span> Earthy with citrusy undertones</li>
+                <li>
+                  <span className="font-semibold">Origin:</span> South India
+                  (Kerala, Karnataka) and Northeast (Assam, Meghalaya)
+                </li>
+                <li>
+                  <span className="font-semibold">Appearance:</span> Pale
+                  golden-yellow, smooth skin
+                </li>
+                <li>
+                  <span className="font-semibold">Texture:</span> Fibrous flesh
+                </li>
+                <li>
+                  <span className="font-semibold">Flavor:</span> Spicy heat with
+                  subtle sweetness
+                </li>
+                <li>
+                  <span className="font-semibold">Aroma:</span> Earthy with
+                  citrusy undertones
+                </li>
               </ul>
             </CardContent>
           </Card>
@@ -176,7 +192,9 @@ export default function Ginger() {
                 <li>Relieves nausea</li>
                 <li>Reduces inflammation</li>
                 <li>Boosts immunity</li>
-                <li>Used in Ayurvedic medicine and traditional healing practices</li>
+                <li>
+                  Used in Ayurvedic medicine and traditional healing practices
+                </li>
                 <li>Incorporated into herbal remedies, teas, and tonics</li>
               </ul>
             </CardContent>
@@ -186,51 +204,97 @@ export default function Ginger() {
         <Card>
           <CardHeader>
             <CardTitle className="text-3xl font-bold text-orange-700 flex items-center">
-              <CheckCircle className="mr-2 h-8 w-8" /> Why Choose GlobexAgriExport for Indian Ginger?
+              <CheckCircle className="mr-2 h-8 w-8" /> Why Choose
+              GlobexAgriExport for Indian Ginger?
             </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🌟 Premium Quality</h3>
-                <p className="text-gray-600">Our ginger undergoes rigorous quality checks to ensure exceptional flavor and freshness.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🌟 Premium Quality
+                </h3>
+                <p className="text-gray-600">
+                  Our ginger undergoes rigorous quality checks to ensure
+                  exceptional flavor and freshness.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🌿 Authentic Source</h3>
-                <p className="text-gray-600">Sourced directly from the finest ginger-growing regions in India for unparalleled authenticity.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🌿 Authentic Source
+                </h3>
+                <p className="text-gray-600">
+                  Sourced directly from the finest ginger-growing regions in
+                  India for unparalleled authenticity.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🔬 Advanced Processing</h3>
-                <p className="text-gray-600">State-of-the-art facilities ensure optimal cleaning, sorting, and packaging of our ginger.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🔬 Advanced Processing
+                </h3>
+                <p className="text-gray-600">
+                  State-of-the-art facilities ensure optimal cleaning, sorting,
+                  and packaging of our ginger.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🌱 Sustainable Practices</h3>
-                <p className="text-gray-600">Committed to environmentally friendly farming and ethical sourcing methods.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🌱 Sustainable Practices
+                </h3>
+                <p className="text-gray-600">
+                  Committed to environmentally friendly farming and ethical
+                  sourcing methods.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🚚 Efficient Logistics</h3>
-                <p className="text-gray-600">Streamlined supply chain ensures timely delivery and maintains product freshness.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🚚 Efficient Logistics
+                </h3>
+                <p className="text-gray-600">
+                  Streamlined supply chain ensures timely delivery and maintains
+                  product freshness.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🌐 Global Reach</h3>
-                <p className="text-gray-600">Extensive network allows us to export our premium ginger to markets worldwide.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🌐 Global Reach
+                </h3>
+                <p className="text-gray-600">
+                  Extensive network allows us to export our premium ginger to
+                  markets worldwide.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">📊 Market Insights</h3>
-                <p className="text-gray-600">Provide valuable information on ginger market trends and forecasts to our clients.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  📊 Market Insights
+                </h3>
+                <p className="text-gray-600">
+                  Provide valuable information on ginger market trends and
+                  forecasts to our clients.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">🤝 Customer-Centric Approach</h3>
-                <p className="text-gray-600">Tailored solutions and responsive support to meet diverse client needs.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  🤝 Customer-Centric Approach
+                </h3>
+                <p className="text-gray-600">
+                  Tailored solutions and responsive support to meet diverse
+                  client needs.
+                </p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-600 mb-2">💼 Expert Team</h3>
-                <p className="text-gray-600">Our experienced professionals ensure smooth transactions and superior product knowledge.</p>
+                <h3 className="text-xl font-semibold text-orange-600 mb-2">
+                  💼 Expert Team
+                </h3>
+                <p className="text-gray-600">
+                  Our experienced professionals ensure smooth transactions and
+                  superior product knowledge.
+                </p>
               </div>
             </div>
           </CardContent>
         </Card>
       </div>
     </div>
-  )
+  );
 }

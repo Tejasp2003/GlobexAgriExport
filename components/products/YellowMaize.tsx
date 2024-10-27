@@ -35,10 +35,10 @@ export default function YellowMaizeExport() {
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold mb-4 text-yellow-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-yellow-600" />
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-yellow-600" />
             Globex Agri Export
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Offering premium quality yellow maize, a versatile and nutritious
             cereal grain with significant importance in global agriculture and
             food production.

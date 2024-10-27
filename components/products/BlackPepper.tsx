@@ -42,7 +42,7 @@ export default function BlackPepperExport() {
             <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12 text-gray-600" />
             Globex Agri Export
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+          <p className="text-lg  md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Offering premium quality black pepper, known as the "King of
             Spices," sourced directly from the finest pepper-growing regions of
             India.

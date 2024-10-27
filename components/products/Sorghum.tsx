@@ -34,11 +34,11 @@ export default function SorghumExport() {
     <div className="min-h-screen bg-gradient-to-b from-orange-50 via-orange-100 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold mb-4 text-orange-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-orange-600" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-800 flex items-center justify-center">
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-orange-600" />
             Globex Agri Export
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Delivering premium quality sorghum seeds to global markets with a
             commitment to excellence and customer satisfaction.
           </p>

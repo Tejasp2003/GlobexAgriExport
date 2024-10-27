@@ -34,11 +34,11 @@ export default function CuminExport() {
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-yellow-50 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold mb-4 text-amber-800 inline-flex items-center">
-            <Leaf className="mr-2 h-12 w-12 text-amber-600" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-amber-800 flex items-center justify-center">
+            <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-amber-600" />
             GlobexAgriExport
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Bringing you the finest quality cumin seeds, a prized spice revered
             in cuisines worldwide. Our cumin seeds are meticulously sourced to
             ensure superior flavor, aroma, and nutritional value.

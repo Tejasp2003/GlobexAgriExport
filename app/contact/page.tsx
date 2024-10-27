@@ -58,8 +58,8 @@ export default function ContactPage() {
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-green-800 inline-flex items-center">
-              <Leaf className="mr-2 h-12 w-12 text-green-600" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-green-800 flex items-center justify-center">
+              <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-green-600" />
               Contact Us
             </h1>
             <p className="text-xl text-gray-600">
