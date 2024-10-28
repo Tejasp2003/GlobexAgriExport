@@ -369,7 +369,7 @@ export default function Home() {
                 Contact Information
               </h4>
               
-              <p className="text-gray-300">Email: Globex Agri Export@gmail.com</p>
+              <p className="text-gray-300">Email: globexagriexport.com</p>
               <p className="text-gray-300">Phone: +91 9104214645</p>
             </div>
           </div>

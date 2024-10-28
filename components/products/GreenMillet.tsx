@@ -48,7 +48,7 @@ export default function GreenMilletExport() {
           </p>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
             <Button className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
-            onClick={() => window.location.href = "mailto:Globex Agri Export@gmail.com"}
+            onClick={() => window.location.href = "mailto:globexagriexport@gmail.com"}
             >
               Request a Quote
             </Button>

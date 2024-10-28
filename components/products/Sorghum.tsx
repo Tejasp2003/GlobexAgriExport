@@ -46,7 +46,7 @@ export default function SorghumExport() {
             <Button
               className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-base md:text-lg"
               onClick={() =>
-                (window.location.href = "mailto:Globex Agri Export@gmail.com")
+                (window.location.href = "mailto:globexagriexport@gmail.com")
               }
             >
               Request a Quote
