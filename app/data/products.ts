@@ -118,7 +118,7 @@ export const products = {
         image: YellowMaizeImage,
       },
       {
-        name: "Chic Peas",
+        name: "chick peas",
         description: "A legume used in various dishes like hummus and salads.",
         varieties: ["Dried", "Canned"],
         image: ChicPeasImage,

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "agricultural commodities",
     "green millet exporter",
     "yellow maize exporter",
-    "chic peas exporter",
+    "chick peas exporter",
     "black pepper exporter",
     "coriander seeds exporter",
     "turmeric exporter",

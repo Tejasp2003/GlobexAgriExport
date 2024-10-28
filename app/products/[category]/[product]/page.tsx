@@ -90,7 +90,7 @@ export default async function ProductPage(props: {
     {productName === "sorghum" && <SorghumExport/>}
     {productName === "green millet" && <GreenMilletExport/>}
     {productName === "yellow maize" && <YellowMaizeExport/>}
-    {productName === "chic peas" && <ChickpeasExport/>}
+    {productName === "chick peas" && <ChickpeasExport/>}
     {productName === "rice" && <RiceExport/>}
     {productName === "barley" && <BarleyExport/>}
     </>
