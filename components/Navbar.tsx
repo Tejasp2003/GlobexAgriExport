@@ -21,6 +21,7 @@ const Navbar = () => {
         <nav className="hidden md:block">
           <ul className="flex space-x-6">
             <li><Link href="/" className="text-gray-600 hover:text-green-600 transition duration-200">Home</Link></li>
+            <li><Link href="/about" className="text-gray-600 hover:text-green-600 transition duration-200">About</Link></li>
            
             <li><Link href="/products" className="text-gray-600 hover:text-green-600 transition duration-200">Products</Link></li>
             <li><Link href="/contact" className="text-gray-600 hover:text-green-600 transition duration-200">Contact</Link></li>

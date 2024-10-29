@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image"
 import { Leaf, Package, Truck, CheckCircle, Share2 } from "lucide-react";
 import {
@@ -7,6 +8,8 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import PeanutImage from "@/public/images/peanuts.jpg";
+import PeanutImage1 from "@/public/images/peanuts1.jpg";
+import PeanutImage2 from "@/public/images/peanuts2.jpg";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -36,14 +39,13 @@ export default function PeanutExport() {
   const shareDescription =
     "Your premier destination for top-quality groundnut products sourced from the heartlands of India. We offer a wide range of groundnut varieties to meet diverse customer needs.";
 
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 via-yellow-100 to-white">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold mb-4 text-yellow-800 inline-flex items-center">
             <Leaf className="mr-2 h-8 w-8 md:h-12 md:w-12  text-yellow-600" />
-           Globex Agri Export
+            Globex Agri Export
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Your premier destination for top-quality groundnut products sourced from the heartlands of India. We offer a wide range of groundnut varieties to meet diverse customer needs.
@@ -100,7 +102,7 @@ export default function PeanutExport() {
             <CardHeader className="p-0">
               <div className="relative h-96 w-full overflow-hidden">
                 <Image
-                  src={PeanutImage}
+                  src={PeanutImage1}
                   alt="Peanuts"
                   layout="fill"
                   objectFit="cover"
@@ -108,6 +110,21 @@ export default function PeanutExport() {
                 />
               </div>
             </CardHeader>
+            
+          </Card>
+          <Card className="overflow-hidden rounded-2xl shadow-lg">
+            <CardHeader className="p-0">
+              <div className="relative h-96 w-full overflow-hidden">
+                <Image
+                  src={PeanutImage2}
+                  alt="Peanuts"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </CardHeader>
+            
           </Card>
           <Card>
             <CardHeader>
