@@ -30,6 +30,7 @@ import PeanutImage from "@/public/images/peanuts.jpg"
 import TurmericImage from "@/public/images/turmeric.jpg"
 import OnionImage from "@/public/images/onion.jpg"
 import YellowMaizeImage from "@/public/images/yellowmaize.jpg"
+import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 
 const categories = [
@@ -331,53 +332,7 @@ export default function Home() {
         </AnimatedSection>
       </main>
 
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h4 className="text-xl font-semibold mb-4">About Us</h4>
-              <p className="text-gray-300">
-                Globex Agri Export is a leading exporter of quality agricultural
-                products, committed to delivering the best to our global
-                customers.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2">
-               
-                <li>
-                  <Link
-                    href="/products"
-                    className="text-gray-300 hover:text-green-400 transition duration-200"
-                  >
-                    Our Products
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/contact"
-                    className="text-gray-300 hover:text-green-400 transition duration-200"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-xl font-semibold mb-4">
-                Contact Information
-              </h4>
-              
-              <p className="text-gray-300">Email: globexagriexport.com</p>
-              <p className="text-gray-300">Phone: +91 9104214645</p>
-            </div>
-          </div>
-          <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
-            <p>&copy; 2024 Globex Agri Export. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+     
     
     </div>
   )
